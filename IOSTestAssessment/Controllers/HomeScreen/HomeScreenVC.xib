@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeScreenVC" customModule="IOSTestAssessment" customModuleProvider="target">
+            <connections>
+                <outlet property="tableview" destination="ByR-Vn-lPq" id="DTN-GC-EMh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jue-4Z-Lfi">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EGd-CT-ogu">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ByR-Vn-lPq">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="ByR-Vn-lPq" secondAttribute="trailing" id="1hO-31-hpR"/>
+                                <constraint firstAttribute="bottom" secondItem="ByR-Vn-lPq" secondAttribute="bottom" id="VH0-sA-yeQ"/>
+                                <constraint firstItem="ByR-Vn-lPq" firstAttribute="top" secondItem="EGd-CT-ogu" secondAttribute="top" id="sti-3W-Qbt"/>
+                                <constraint firstItem="ByR-Vn-lPq" firstAttribute="leading" secondItem="EGd-CT-ogu" secondAttribute="leading" id="w8V-3j-q2L"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="EGd-CT-ogu" secondAttribute="bottom" id="Lfi-PC-fMB"/>
+                        <constraint firstItem="EGd-CT-ogu" firstAttribute="leading" secondItem="jue-4Z-Lfi" secondAttribute="leading" id="jes-YL-B7c"/>
+                        <constraint firstAttribute="trailing" secondItem="EGd-CT-ogu" secondAttribute="trailing" id="kBZ-z6-jPQ"/>
+                        <constraint firstItem="EGd-CT-ogu" firstAttribute="top" secondItem="jue-4Z-Lfi" secondAttribute="top" id="tNK-3s-CfM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="jue-4Z-Lfi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="VQA-e3-WBt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="jue-4Z-Lfi" secondAttribute="bottom" id="ghY-OD-x82"/>
+                <constraint firstAttribute="trailing" secondItem="jue-4Z-Lfi" secondAttribute="trailing" id="mpN-VG-fLW"/>
+                <constraint firstItem="jue-4Z-Lfi" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="nNH-oG-SrB"/>
+            </constraints>
+            <point key="canvasLocation" x="118" y="-32"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

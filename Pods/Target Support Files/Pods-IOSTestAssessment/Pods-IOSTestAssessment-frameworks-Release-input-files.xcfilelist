@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-IOSTestAssessment/Pods-IOSTestAssessment-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/KRPullLoader/KRPullLoader.framework
